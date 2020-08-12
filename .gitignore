@@ -1,23 +1,29 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
-# Folder config file
-Desktop.ini
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Netlist files (exported from Eeschema)
+*.net
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# Windows shortcuts
-*.lnk
+# Exported BOM files
+*.xml
+*.csv
 
-# =========================
-# Operating System Files
-# =========================
+# Freerouter files
+*.rules
